@@ -27,6 +27,8 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# Gapps
+TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 
 PRODUCT_NAME := aosp_enchilada
