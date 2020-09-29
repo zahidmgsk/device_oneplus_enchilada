@@ -25,10 +25,6 @@ TARGET_OTA_ASSERT_DEVICE := OnePlus6,oneplus6,enchilada
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
-# Vendor init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_enchilada
-TARGET_RECOVERY_DEVICE_MODULES := libinit_enchilada
-
 # Prebuilt TWRP BLACK recovery
 TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := device/oneplus/enchilada/twrp/ramdisk-recovery.cpio
 
