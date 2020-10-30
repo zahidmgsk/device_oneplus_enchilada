@@ -2,7 +2,7 @@
   {
     "repository"  : "device_oneplus_sdm845-common",
     "target_path" : "device/oneplus/sdm845-common",
-    "branch"      : "android_10"
+    "branch"      : "android_11"
   },
   {
     "repository"  : "Ashutosh-s-Test-Dumpster/shapeshift_kernel_op6-t",
@@ -12,11 +12,11 @@
   {
     "repository"  : "vendor_oneplus",
     "target_path" : "vendor/oneplus",
-    "branch"      : "android_10"
+    "branch"      : "android_11"
   },
   {
     "repository"  : "device_oneplus_common",
     "target_path" : "device/oneplus/common",
-    "branch"      : "android_10"
+    "branch"      : "android_11"
   }
 ]
