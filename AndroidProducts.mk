@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_enchilada.mk
+    $(LOCAL_DIR)/lineage_enchilada.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_enchilada-user \
-    ssos_enchilada-userdebug \
-    ssos_enchilada-eng
+    lineage_enchilada-user \
+    lineage_enchilada-userdebug \
+    lineage_enchilada-eng
