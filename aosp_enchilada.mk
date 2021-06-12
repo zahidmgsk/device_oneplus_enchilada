@@ -28,8 +28,10 @@ $(call inherit-product, vendor/aosp/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps
+WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
+
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_enchilada
