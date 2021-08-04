@@ -36,6 +36,9 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# Pixel charger images
+USE_PIXEL_CHARGER_IMAGES := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_enchilada
 PRODUCT_DEVICE := enchilada
